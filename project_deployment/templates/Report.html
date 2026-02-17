@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>iRevolution – Project Report</title>
+
+  <link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='assets/css/style.css') }}" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f5f6fa;
+    }
+    .section-title {
+      margin-top: 40px;
+      margin-bottom: 25px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .content-box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      margin-bottom: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main id="main" class="container">
+
+    <h2 class="section-title text-center">📘 iRevolution – Project Report</h2>
+
+    <!-- INTRO -->
+    <div class="content-box">
+      <h4>1. Introduction</h4>
+      <p>
+        This project analyzes the performance of Apple's iPhone market using Tableau visualizations and a Flask-based web interface.
+        Insights include revenue trends, geographic dominance, model sales share, and product-level specifications sourced from 
+        multiple datasets including <strong>apple_products.xlsx</strong>.
+      </p>
+    </div>
+
+    <!-- OBJECTIVES -->
+    <div class="content-box">
+      <h4>2. Objectives</h4>
+      <ul>
+        <li>Analyze annual revenue growth of Apple.</li>
+        <li>Evaluate model-wise and country-wise iPhone market penetration.</li>
+        <li>Study detailed product specifications and pricing.</li>
+        <li>Build advanced Tableau visualizations.</li>
+        <li>Integrate Dashboard + Story + Report into a Flask UI.</li>
+      </ul>
+    </div>
+
+    <!-- DATASETS -->
+    <div class="content-box">
+      <h4>3. Datasets Used</h4>
+      <ul>
+        <li>Annual Revenue Dataset</li>
+        <li>Quarterly Sales Dataset</li>
+        <li>Model Sales Share Dataset</li>
+        <li>Country-wise Share Dataset</li>
+        <li>apple_products.xlsx (450+ rows, 12+ features)</li>
+        <li>market penetration Dataset</li>
+        <li>Flipkart_Smartphones Datasets</li>
+      </ul>
+    </div>
+
+    <!-- VISUALIZATIONS -->
+    <div class="content-box">
+      <h4>4. Visualizations</h4>
+      <p>Total Visualizations: <strong>12</strong></p>
+      <ul>
+        <li>Annual Revenue Line Chart</li>
+        <li>Quarterly Donut/Bubble Chart</li>
+        <li>Country-wise Market Share Bar Chart</li>
+        <li>World Map</li>
+        <li>Model Sales Bar Chart</li>
+        <li>Tree Map</li>
+        <li>Battery Type vs Price Chart</li>
+        <li>3 KPI Cards</li>
+        <li>Model Specification Table</li>
+      </ul>
+    </div>
+
+    <!-- KPIs -->
+    <div class="content-box">
+      <h4>5. KPIs</h4>
+      <ul>
+        <li><strong>Latest Annual Revenue:</strong> $1,035</li>
+        <li><strong>Top Selling iPhone:</strong> iPhone 14 (17%)</li>
+        <li><strong>Top Country Market:</strong> United Kingdom (62%)</li>
+      </ul>
+    </div>
+
+    <!-- PERFORMANCE -->
+    <div class="content-box">
+      <h4>6. Performance Testing</h4>
+      <ul>
+        <li>Amount of Data Rendered: 950+ rows</li>
+        <li>No. of Filters Used: 4 (Model, Country, Year, Battery)</li>
+        <li>Total Visualizations: 12</li>
+        <li>Calculated Fields: 2</li>
+      </ul>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="content-box">
+      <h4>7. Published Links</h4>
+      <p><strong>Dashboard:</strong>  
+        <a href="https://public.tableau.com/views/Book2_17711683798170/irevolutioniphonemarket" target="_blank">
+          View Dashboard
+        </a>
+      </p>
+      <p><strong>Story:</strong>  
+        <a href="https://public.tableau.com/shared/MY9JPTN77" target="_blank">
+          View Story
+        </a>
+      </p>
+    </div>
+
+    <!-- CONCLUSION -->
+    <div class="content-box">
+      <h4>8. Conclusion</h4>
+      <p>
+        The project delivers complete business insights into Apple's iPhone ecosystem using Tableau.
+        Integrating dashboards into a Flask UI demonstrates strong full-stack analytics and deployment skills.
+      </p>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
+
