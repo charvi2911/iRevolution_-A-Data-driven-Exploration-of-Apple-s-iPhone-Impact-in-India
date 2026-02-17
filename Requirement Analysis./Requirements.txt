@@ -1,0 +1,18 @@
+Requirements:
+ 
+Functional & Non-Functional Requirements
+Functional Requirements:
+
+Data Visualization: The application must display historical sales and technical data for iPhones (2006-2022).
+
+Interactive Storytelling: A 12-point Tableau story must guide the user through Apple's market evolution.
+
+Navigation: A responsive navigation bar to switch between Home, Story, and Report.
+
+Non-Functional Requirements:
+
+Usability: The interface must be user-friendly for non-technical buyers.
+
+Performance: The Flask backend must load the embedded Tableau frames within 3-5 seconds.
+
+Availability: The project must be accessible via a public GitHub repository.
